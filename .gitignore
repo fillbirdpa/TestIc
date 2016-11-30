@@ -11,3 +11,4 @@ gradlew.bat
 build/
 gradle/
 gradle.properties
+.idea/
