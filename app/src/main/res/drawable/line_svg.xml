@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="200dp"
+        android:height="20dp"
+        android:viewportHeight="10"
+        android:viewportWidth="100">
+    <group
+        android:name="rotateGroup"
+        android:pivotX="50.0"
+        android:pivotY="5.0">
+        <path
+            android:name="line1"
+            android:pathData="M0,8 L48.7,8 L50,10 L50,10"
+            android:strokeColor="@color/colorPrimaryDark"
+            android:strokeWidth="0.1"/>
+        <path
+            android:name="line1"
+            android:pathData="M100,8 L51.3,8 L50,10 L50,10"
+            android:strokeColor="@color/colorPrimaryDark"
+            android:strokeWidth="0.1"/>
+
+    </group>
+    <!--android:pathData="M50,100 L50,100 L48.7,80 L0,80"-->
+    <!--android:pathData="M50,100 L50,100 L51.3,80 L100,80"-->
+
+
+    <!--android:pathData="M30,80  L 30,80 L 70,80 L 50,90 z"-->
+    <!--<path-->
+    <!--android:name="triangle2"-->
+    <!--android:pathData="M50,0  L 48.7,1.3 L "-->
+    <!--android:strokeColor="@color/colorPrimaryDark"/>-->
+    <!--<path-->
+    <!--android:name="triangle1"-->
+    <!--android:fillColor="#00ff00"-->
+    <!--android:pathData="M50,30  L 50,30 L 70,70 L 30,70"/>-->
+
+
+</vector>

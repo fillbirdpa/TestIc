@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/parent_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/aTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="1"/>
+
+            <TextView
+                android:id="@+id/bTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="2"/>
+
+            <TextView
+                android:id="@+id/cTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="3"/>
+
+            <TextView
+                android:id="@+id/dTv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="4"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>
